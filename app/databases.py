@@ -5,8 +5,8 @@ from psycopg2 import sql
 DB_HOST = "db"
 DB_PORT = "5432"
 DB_NAME = "conversations"
-DB_USER = "admin"
-DB_PASSWORD = "password"
+DB_USER = "postgres"
+DB_PASSWORD = "5607"
 
 # Create a PostgreSQL connection
 def create_connection():
